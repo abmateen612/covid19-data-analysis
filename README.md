@@ -1,48 +1,53 @@
 # COVID-19 Data Cleaning & Exploratory Analysis
 
-A real-world data analysis project using Python on a COVID-19 dataset
-covering 211 countries from December 2019 to September 2020.
+## Overview
 
----
+A real-world data analysis project using Python to clean, transform,
+and explore COVID-19 data covering **211 countries** from December
+2019 to September 2020.
 
-## What this project covers
+The project focuses on handling common challenges found in real-world
+datasets, including missing values, inconsistent records, aggregated
+locations, date formatting issues, and reporting corrections.
 
-- Loading and inspecting a raw dataset (44,521 rows, 28 columns)
-- Handling missing values across multiple columns
-- Removing aggregated rows (World, Europe etc.) for accurate country-level analysis
-- Converting date columns to proper datetime format
-- Fixing negative values caused by country reporting corrections
-- Exploratory Data Analysis with 4 visualizations
+## Project Objectives
 
----
+The main objectives were to:
 
-## Visualizations
+- Inspect and understand a large real-world dataset
+- Identify and handle missing values
+- Remove aggregated geographical records
+- Correct data-type and date-format issues
+- Handle negative values caused by reporting corrections
+- Explore COVID-19 trends across countries and continents
+- Create visualizations to communicate important patterns
 
-- Total COVID-19 cases over time (Top 5 countries)
-- Daily new cases smoothed trend (Top 5 countries)
-- Total deaths by continent (bar chart)
-- Top 10 countries by death rate
+## Dataset
 
----
+The raw dataset contains:
 
-## Tools used
+- **44,521 rows**
+- **28 columns**
+- **211 countries**
+- Data covering **December 2019 – September 2020**
 
-- Python — pandas, matplotlib, seaborn
-- Jupyter Notebook
-- Microsoft Excel
+## Data Cleaning Workflow
 
----
-
-## Files
-
-- `covid19_analysis.ipynb` — full analysis notebook
-- `covid19_cleaned.xlsx` — cleaned dataset ready for use
-
----
-
-## Key findings
-
-- USA, India, Brazil, Russia and France had the highest total cases
-- Europe had the highest total deaths by continent
-- Identified and removed aggregated location rows that were skewing results
-- Handled negative case values from reporting corrections
+```text
+Raw COVID-19 Dataset
+        ↓
+Data Inspection
+        ↓
+Missing Value Analysis
+        ↓
+Remove Aggregated Locations
+        ↓
+Date Conversion
+        ↓
+Handle Reporting Corrections
+        ↓
+Clean Dataset
+        ↓
+Exploratory Data Analysis
+        ↓
+Visualization & Interpretation
